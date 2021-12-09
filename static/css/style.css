@@ -1,0 +1,182 @@
+/*
+COMMON
+**********/
+html,
+body {
+  height: 100%;
+}
+.content {
+  background-color: lightcyan;
+  max-width: 600px;
+  /* height: 100%; */
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+/*
+POST
+***********/
+.content {
+  border-bottom: 1px solid #ccc;
+  padding: 17px;
+}
+.header {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.logo {
+  height: 50px;
+}
+.header a {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+  font-weight: bold;
+  padding: 0 10%;
+}
+.post_form {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post_form input {
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+.post_form textarea {
+  width: 100%;
+  padding: 6px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+}
+#uploadfile {
+  width: 40%;
+  border: hidden;
+  overflow: hidden;
+  padding-top: 20px;
+}
+#btm {
+  width: 20%;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 30%;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+}
+#btm1 {
+  width: 20%;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 3%;
+  padding: 9px;
+  border: none;
+  cursor: pointer;
+}
+.cancel {
+  text-decoration: none;
+  width: 10%;
+  background-color: rgb(145, 162, 173);
+  border: 1px solid rgb(145, 162, 173);
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.posts ul {
+  padding: 0%;
+}
+.posts li {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 40px;
+  list-style: none;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+.posts li .logo img {
+  width: 50%;
+}
+
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.posts li .name_body .datetime {
+  color: gray;
+}
+.name_body p {
+  font-size: 18px;
+}
+.image {
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-style: 20px;
+  }
+  .image {
+    height: 170px;
+    width: 180px;
+  }
+  #uploadfile {
+    width: 70%;
+  }
+  #btm {
+    font-size: 13px;
+  }
+  #btm1 {
+    width: 30%;
+  }
+  .cancel {
+    margin-left: 10%;
+  }
+}
