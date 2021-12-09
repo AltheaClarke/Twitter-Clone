@@ -7,6 +7,7 @@ So there are not user accounts and follow function. You can challenge after you 
 ```
 Check out [LIVE Twitter clone DEMO](https://twitterclone-althea.herokuapp.com/) here!!
 
+![Screenshot 2021-12-10 at 3 18 01 AM](https://user-images.githubusercontent.com/91506557/145481502-9baf827f-b954-4c07-8820-49d94be92b00.png)
 
 
 
